@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+
+
+    <!-- Meta info -->
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries-Flag</title>
+    <meta content="" name="description">
+    <meta name="author" content="">
+    <meta name="format-detection" content="">
+
+    <!-- Styles -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="styles/main.css" rel="stylesheet" media="screen, print" type="text/css">
+    <script src="lib/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div id="container" style="left: 0px;">
+        <section id="content">
+
+<header>
+  <p>
+    <center><font size="8">Different Countries Information</font><center>
+  </p>
+</header>
+
+<div id="our-work">
+  <!-- Will be added from dataExtract() function in flagDataExtraction file -->
+</div>
+</section>
+
+       <footer id="msf">
+            <div class="wrapper">
+                <div id="legal">
+                	<span>Developed by<br>Divya Biyani</span>
+                </div>
+
+            </div><!-- wrapper -->
+        </footer><!-- footer -->
+    </div><!-- container -->
+
+    <script src="jquery/jquery-1.11.0.min.js"></script>
+    <script src="scripts/flagDataExtraction.js"></script>
+    <script>
+        $(document).ready(function () {
+            dataExtract();
+        });
+    </script>
+
+</body>
+</html>
