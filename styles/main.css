@@ -273,3 +273,37 @@ div {
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width:689px) {
+  footer#msf div#legal {
+    float:none;
+    width:auto
+  }
+
+  footer#msf div#legal span {
+    display:block;
+    padding-left:0;
+    text-align:right
+  }
+
+  footer#msf li a,footer#msf span {
+    line-height:2em
+  }
+
+  #headline {
+    font-weight: bold;
+    font-size: 15px;
+    text-align:center;
+    margin-bottom: 20px;
+  }
+
+  #content #our-work ul li {
+    display:block;
+    padding-left: 10px
+    float:left;
+    height:200px;
+    width:250px;
+    position:relative
+  }
+
+}
