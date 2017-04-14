@@ -274,7 +274,7 @@ div {
   }
 }
 
-@media screen and (max-width:689px) {
+@media screen and (max-width:320px) {
   footer#msf div#legal {
     float:none;
     width:auto
