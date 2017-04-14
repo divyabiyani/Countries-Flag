@@ -129,7 +129,7 @@ header {
 #content #our-work ul li .overlay summary h2 {
   color:#fff;font:400 20px/1em Source Sans Pro,sans-serif;
   padding-bottom:15px;
-  text-align: center;
+  float:left;
 }
 
 #content #our-work ul li .overlay summary h3 {
