@@ -51,7 +51,7 @@ li {
 }
 
 .effect1 {
-  box-shadow: 0 6px 6px 6px #C1BBBB;
+  box-shadow: 0 0 6px 0 #C1BBBB;
 }
 
 #container {
@@ -68,11 +68,6 @@ header {
   padding-bottom:100px;
 }
 
-#content img {
-  height:28px;
-  width:140px
-}
-
 #content #our-work {
 }
 
@@ -84,7 +79,7 @@ header {
 #content #our-work ul li {
   display:block;
   float:left;
-  height:210px;
+  height:200px;
   width:300px;
   position:relative
 }
@@ -203,15 +198,29 @@ div {
 }
 
 .image-effect {
-  height: 60%;
-  padding:20px 0px 20px 0px;
+  height: 70%;
+  padding:0px 0px 0px 0px;
   width: 100%;
+  background-color: #D3D3D3;
+  /*margin-top:10px;
+  margin-bottom:10px;*/
 }
 
 .image-effect img {
   /*position: absolute;*/
+  z-index:300;
   height: 100%;
   max-width: 100%;
+}
+
+#latlong {
+  margin-top: 15px;
+  /*margin-bottom: 5px;*/
+  font-weight: lighter;
+}
+
+#name {
+  margin-bottom: 10px;
 }
 
 #headline {
