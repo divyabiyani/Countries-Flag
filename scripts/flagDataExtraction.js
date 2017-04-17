@@ -2,11 +2,13 @@
 
 var dataExtract = function() {
   $.ajax({
-    url: "https://restcountries.eu/rest/v2/all?fields=name;latlng;capital",
-    // Handle as Text
+    url: "http://127.0.0.1:8000/things",
     dataType: "json",
+    error: function (xhr, status) {
+      console.log(status);
+    },
     success: function(data) {
-    dataInsert(data);
+      dataInsert(data);
     }
   });
 }
