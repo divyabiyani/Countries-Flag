@@ -3,7 +3,7 @@
 This website will have information about countries like it's capital,longitude,latitude along with its flag.
 
   - It uses HTML, CSS, Javascript, jQuery, AJAX.
-  - Follwing is the link of public API from where we get the json of countries information : https://restcountries.eu/rest/v2/all?fields=name;latlng;capital
+  - Follwing is the link of hosted API from where we get the json of countries information : http://divyabiyani.pythonanywhere.com/
 
 # Tech
 
@@ -11,6 +11,7 @@ This website will have information about countries like it's capital,longitude,l
   - Header and footer are added.
   - Flag's information are shown in box.
   - Upon hovering on the box, a more detailed information including the capital of country is shown.
+  - Scss files have been converted to css to avail a more nested and scalable approach.
   - Css has been taken care w.r.t three media screen's max-width: 1200px, 689px, 320px.
 
 ##### Example:
