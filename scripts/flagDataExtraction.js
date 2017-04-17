@@ -2,7 +2,7 @@
 
 var dataExtract = function() {
   $.ajax({
-    url: "http://127.0.0.1:8000/things",
+    url: "http://divyabiyani.pythonanywhere.com/",
     dataType: "json",
     error: function (xhr, status) {
       console.log(status);
